@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+    margin: 0;
+    padding: 0;
+}
+
+.list-reset {
+    margin: 0;;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar {
+    padding: 20px 20px;
+    box-shadow: 0px 9.03012px 27.0904px rgba(176, 190, 197, 0.32), 0px 3.38629px 5.64383px rgba(176, 190, 197, 0.32);
+    display: flex;
+}
+
+.list-item {
+    line-height: 0;
+}
+
+.list-item:not(:last-child) {
+    margin-right: 53px;
+}
+
+.input-search {
+    padding: 12px 16px;
+    font-size: 14px;
+    width: 581px;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    line-height: 0;
+    margin-top: 2px;
+}
+
+.main-content {
+    background-color: #F5F5F5;
+    padding: 40px 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.filter-container {
+
+}
+
+.users-list {
+    padding: 0 20px;
+}
+
+.user-item {
+    display: flex;
+}
+
+.list-title {
+    color: #B0B0B0;
+}
+
+.table-title-container {
+    display: flex;
+}
+
+.table-column-1 {
+    width: 7.4%;
+}
+
+.table-column-2 {
+    width: 24.8%;
+}
+
+.table-column-3 {
+    width: 16.6%;
+}
+
+.table-column-4 {
+    width: 15.5%;
+}
+
+.table-column-5 {
+    width: 15.9%;
+}
+
+.table-column-6 {
+    width: 12.2%;
+}
+
+.table-column-7 {
+    width: 12.2%;
+}
