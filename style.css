@@ -5,7 +5,8 @@ body {
 
 *, *:before, *:after {
     box-sizing: border-box;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6, span {
@@ -58,11 +59,21 @@ h1, h2, h3, h4, h5, h6, span {
 }
 
 .users-list {
-    padding: 0 20px;
+    
+}
+
+.list-row {
+    padding: 20px 20px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgba(200, 197, 209, 0.5);
 }
 
 .user-item {
     display: flex;
+}
+
+.table-title-container {
+    padding: 20px;
 }
 
 .list-title {
@@ -98,5 +109,45 @@ h1, h2, h3, h4, h5, h6, span {
 }
 
 .table-column-7 {
-    width: 12.2%;
+    width: 7.6;
+}
+
+.table-content-text {
+
+}
+
+.table-content-text-gray {
+    color: #B0B0B0;
+}
+
+.table-content-text-black {
+    color: #333333;
+}
+
+.table-date {
+    margin-right: 10px;
+}
+
+.contact-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    padding-left: 19px;
+    cursor: pointer;
+}
+
+.btn-change {
+    background-image: url('./assets/edit.svg');
+    background-repeat: no-repeat;
+    margin-right: 32px;
+}
+
+.btn-delete {
+    background-image: url('./assets/cancel.svg');
+    background-repeat: no-repeat;
 }
